@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+.vscode
+*.db
+*.pytest_cache
+/tests
+/person_data
+/info
+/Data
