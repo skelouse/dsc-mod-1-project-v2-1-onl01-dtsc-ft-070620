@@ -287,7 +287,7 @@ ax.yaxis.label.set_text("Gross (Billions)")
 ```
 
 
-![svg](output_8_0.svg)
+![svg](img/output_8_0.svg)
 
 
 
@@ -690,7 +690,7 @@ ax.tick_params(axis='both', which='major', labelsize=15)
 ```
 
 
-![svg](output_15_0.svg)
+![svg](img/output_15_0.svg)
 
 
 
@@ -717,7 +717,7 @@ ax.tick_params(axis='both', which='major', labelsize=11)
 ```
 
 
-![svg](output_16_0.svg)
+![svg](img/output_16_0.svg)
 
 
 
@@ -1029,7 +1029,7 @@ ax.yaxis.label.set_text("Return on Budget %")
 ```
 
 
-![svg](output_20_0.svg)
+![svg](img/output_20_0.svg)
 
 
 
@@ -1480,7 +1480,7 @@ ax.yaxis.label.set_text("Director Name")
 ```
 
 
-![svg](output_26_0.svg)
+![svg](img/output_26_0.svg)
 
 
 
@@ -1503,7 +1503,7 @@ ax.yaxis.label.set_text("Return on Budget %")
 ```
 
 
-![svg](output_27_0.svg)
+![svg](img/output_27_0.svg)
 
 
 
@@ -2381,7 +2381,7 @@ ax.yaxis.label.set_text("Writer Name")
 ```
 
 
-![svg](output_32_0.svg)
+![svg](img/output_32_0.svg)
 
 
 
