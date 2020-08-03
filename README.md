@@ -3,9 +3,9 @@
 Please fill out:
 * Student name: Sam Stoltenberg
 * Student pace: full time
-* Scheduled project review date/time: 
+* Scheduled project review date/time: 8/7/2020 6:00PM 
 * Instructor name: James Irving
-* Blog post URL:
+* Blog post URL:  https://skelouse.github.io/project_placeholder
 
 
 
@@ -61,6 +61,7 @@ print('Done loading %s MB' % total_size)
     reading imdb.title.ratings.tsv.gz 4.99261474609375 MB
     Done loading 891.3275747299194 MB
     
+
 
 ```python
 # Open df from csv that was scraped as a group
@@ -286,7 +287,7 @@ ax.yaxis.label.set_text("Gross (Billions)")
 ```
 
 
-![png](img/output_8_0.png)
+![svg](output_8_0.svg)
 
 
 
@@ -675,7 +676,7 @@ genre_df['runtimeMinutes'] = genre_df['runtimeMinutes'].astype('int64')
 
 ```python
 # What would be the optimal runtime of a movie
-fig, ax = plt.subplots(figsize=(10, 6.5))
+fig, ax = plt.subplots(figsize=(12.5, 8.5))
 sns.distplot(genre_df['runtimeMinutes'][0:500], bins=10, ax=ax)
 ax.set_title("Run Time Compared vs Return On Investment %")
 ax.title.set_fontsize(30)
@@ -689,7 +690,7 @@ ax.tick_params(axis='both', which='major', labelsize=15)
 ```
 
 
-![png](img/output_15_0.png)
+![svg](output_15_0.svg)
 
 
 
@@ -710,13 +711,13 @@ ax.set_title("Genre vs Return On Investment %")
 ax.title.set_fontsize(20)
 ax.yaxis.label.set_fontsize(17)
 ax.yaxis.label.set_text("Quanity")
-ax.tick_params(axis='both', which='major', labelsize=15)
+ax.tick_params(axis='both', which='major', labelsize=11)
 
 # Comedy or thriller seem to take the cake
 ```
 
 
-![png](img/output_16_0.png)
+![svg](output_16_0.svg)
 
 
 
@@ -1014,7 +1015,7 @@ director_split_df['director_count'] = director_split_df['directors'].map(lambda 
 
 ```python
 # How many directors would be ideal
-fig, ax = plt.subplots(figsize=(8.5, 6.5))
+fig, ax = plt.subplots(figsize=(12.5, 6.5))
 sns.regplot("director_count", "perc", data=director_split_df, ax=ax)
 ax.set_title("ROI % vs Quantity of Directors")
 ax.title.set_fontsize(20)
@@ -1028,7 +1029,7 @@ ax.yaxis.label.set_text("Return on Budget %")
 ```
 
 
-![png](img/output_20_0.png)
+![svg](output_20_0.svg)
 
 
 
@@ -1052,15 +1053,15 @@ x_directors
 
     nm1490123    6.0
     nm0796117    5.0
-    nm1443502    4.0
     nm0484907    4.0
-    nm0440458    3.0
+    nm1443502    4.0
+    nm0000965    3.0
                 ... 
-    nm1720541    2.0
-    nm1291105    2.0
-    nm0281508    2.0
+    nm0839812    2.0
+    nm1417392    2.0
+    nm0948488    2.0
+    nm0002657    2.0
     nm0795290    2.0
-    nm0300174    2.0
     Name: directors, Length: 63, dtype: float64
 
 
@@ -1472,14 +1473,14 @@ ax.set_title("Top Directors by Return on Budget for All Their Movies")
 ax.title.set_fontsize(20)
 ax.xaxis.label.set_fontsize(20)
 ax.yaxis.label.set_fontsize(20)
-ax.xaxis.label.set_text("Return on Budget %")
+ax.xaxis.label.set_text("Return on Investment %")
 ax.yaxis.label.set_text("Director Name")
 
 # Here are the top 60 directors
 ```
 
 
-![png](img/output_26_0.png)
+![svg](output_26_0.svg)
 
 
 
@@ -1489,7 +1490,7 @@ writer_split_df = genre_df.copy(deep=True)
 writer_split_df['writers'] = writer_split_df['writers'].map(lambda x: x.split(','))
 writer_split_df['writer_count'] = writer_split_df['writers'].map(lambda x: len(x))
 
-fig, ax = plt.subplots(figsize=(8.5, 6.5))
+fig, ax = plt.subplots(figsize=(12.5, 6.5))
 sns.regplot("writer_count", "perc", data=writer_split_df, ax=ax)
 ax.set_title("ROI % vs Quantity of Writers")
 ax.title.set_fontsize(20)
@@ -1502,7 +1503,7 @@ ax.yaxis.label.set_text("Return on Budget %")
 ```
 
 
-![png](img/output_27_0.png)
+![svg](output_27_0.svg)
 
 
 
@@ -1521,52 +1522,52 @@ x_writers
 
 
     nm0796117    6.0
-    nm0000095    5.0
-    nm1191481    5.0
     nm1347153    5.0
+    nm1191481    5.0
+    nm0000095    5.0
     nm1443502    4.0
     nm2752098    3.0
-    nm0831557    3.0
     nm0009190    3.0
-    nm2704527    3.0
-    nm1108556    3.0
     nm0191717    3.0
+    nm0831557    3.0
+    nm1108556    3.0
     nm1959505    3.0
-    nm0839812    2.0
-    nm0797321    2.0
-    nm1245146    2.0
-    nm1098493    2.0
-    nm0204030    2.0
-    nm1440023    2.0
-    nm4170048    2.0
-    nm1557594    2.0
-    nm4532532    2.0
-    nm0746830    2.0
-    nm0472567    2.0
-    nm0424901    2.0
-    nm0001675    2.0
-    nm0934483    2.0
-    nm2477891    2.0
-    nm0426059    2.0
+    nm2704527    3.0
     nm0847859    2.0
-    nm0634240    2.0
-    nm0159900    2.0
+    nm0746830    2.0
     nm0307497    2.0
-    nm2133655    2.0
-    nm0642277    2.0
-    nm5429637    2.0
-    nm0249291    2.0
-    nm0083348    2.0
-    nm0629272    2.0
-    nm3398282    2.0
+    nm0001675    2.0
     nm0567620    2.0
-    nm0426500    2.0
-    nm1867458    2.0
-    nm0776885    2.0
-    nm0868066    2.0
-    nm0218621    2.0
-    nm3227090    2.0
+    nm0083348    2.0
+    nm1245146    2.0
     nm0792263    2.0
+    nm0642277    2.0
+    nm1557594    2.0
+    nm0797321    2.0
+    nm0218621    2.0
+    nm2133655    2.0
+    nm0426059    2.0
+    nm3227090    2.0
+    nm1867458    2.0
+    nm0249291    2.0
+    nm4532532    2.0
+    nm2477891    2.0
+    nm0839812    2.0
+    nm0629272    2.0
+    nm1098493    2.0
+    nm0868066    2.0
+    nm0472567    2.0
+    nm0426500    2.0
+    nm3398282    2.0
+    nm0204030    2.0
+    nm0634240    2.0
+    nm4170048    2.0
+    nm0159900    2.0
+    nm0776885    2.0
+    nm5429637    2.0
+    nm0934483    2.0
+    nm0424901    2.0
+    nm1440023    2.0
     Name: writers, dtype: float64
 
 
@@ -2373,14 +2374,14 @@ ax.set_title("Top Writers by Return on Budget for All Their Movies")
 ax.title.set_fontsize(20)
 ax.xaxis.label.set_fontsize(20)
 ax.yaxis.label.set_fontsize(20)
-ax.xaxis.label.set_text("Return on Budget %")
+ax.xaxis.label.set_text("Return on Investment %")
 ax.yaxis.label.set_text("Writer Name")
 
 # Here are the top 60 writers
 ```
 
 
-![png](img/output_32_0.png)
+![svg](output_32_0.svg)
 
 
 

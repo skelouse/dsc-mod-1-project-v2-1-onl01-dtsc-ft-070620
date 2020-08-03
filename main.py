@@ -5,4 +5,3 @@ scraped = pd.read_csv('zippedData/budget_ratings.csv')
 print(scraped)
 
 sns.regplot()
-# test
