@@ -1,160 +1,2591 @@
-# Module 1 Final Project
+## Final Project Submission
 
-## Introduction
-
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 1.
-
-## Objectives
-
-You will be able to:
-
-* Describe all required aspects of the final project for Module 1
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
-
-## Final Project Summary
-
-You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-1-project-v2-1/master/awesome.gif)
-
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
-
-## The Project
-
-Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry.
-Your team is charged with doing data analysis and creating a presentation that explores what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the CEO can use when deciding what type of films they should be creating.
-
-# The Dataset
-
-You may scrape or make API calls to get additional data, but included in the repository (in the folder `zippedData`) is some movie-related data from:
-* Box Office Mojo
-* IMDB
-* Rotten Tomatoes
-* TheMovieDB.org
-
-# The Deliverables
-
-For online students, there will be five deliverables for this project (Note: On-campus students may have different requirements, please speak with your instructor):
-
-1. A well documented **Jupyter Notebook** containing any code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project.  
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A short **Keynote/PowerPoint/Google Slides presentation** (delivered as a PDF export) giving a high-level overview of your methodology and recommendations for non-technical stakeholders. Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of presentation.pdf.
-4. **[A Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1)**
-5. A **Video Walkthrough** of your non-technical presentation. Some common video recording tools used are Zoom, Quicktime, and Nimbus. After you record your presentation, publish it on a service like YouTube or Google Drive, you will need a link to the video to submit your project.
-
-Note: On-campus students may have different requirements, please speak with your instructor.
-
-### Jupyter Notebook Must-Haves
-
-For this project, your Jupyter Notebook should meet the following specifications:
-
-#### Organization/Code Cleanliness
-
-* The notebook should be well organized, easy to follow,  and code should be commented where appropriate.  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code.  All functions have docstrings that act as professional-quality documentation
-* The notebook is written for technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.
-
-#### Visualizations & EDA
-
-* Your project contains at least 4 meaningful data visualizations, with corresponding interpretations. All visualizations are well labeled with axes labels, a title, and a legend (when appropriate)  
-* You pose at least 3 meaningful questions and answer them through EDA.  These questions should be well labeled and easy to identify inside the notebook.
-    * **Level Up**: Each question is clearly answered with a visualization that makes the answer easy to understand.   
-* Your notebook should contain 1 - 2 paragraphs briefly explaining your approach to this project.
-
-
-### Non-Technical Presentation Must-Haves
-
-Another deliverable should be a Keynote, PowerPoint or Google Slides presentation delivered as a pdf file in your fork of this repository with the file name of `presentation.pdf` detailing the results of your project.  Your target audience is non-technical people interested in using your findings to make decisions for creating movies.
-
-Your presentation should:
-
-* Contain between 5 - 10 professional-quality slides.  
-    * **Level Up**: The slides should use visualizations whenever possible, and avoid walls of text.
-* Take no more than 5 minutes to present.   
-* Avoid technical jargon and explain the results in a clear, actionable way for non-technical audiences.   
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1) for the technical requirements and blog ideas.
+Please fill out:
+* Student name: Sam Stoltenberg
+* Student pace: full time
+* Scheduled project review date/time: 
+* Instructor name: James Irving
+* Blog post URL:
 
 
 
-## The Process
-(Note: On-campus students may have different processes, please speak with your instructor)
-
-### 1. Getting Started
-
-Please start by reviewing this document. If you have any questions, please ask them in Slack ASAP so (a) we can answer the questions and (b) so we can update this repository to make it clearer.
-
-Be sure to let the instructor team know when you’ve started working on a project, either by reaching out over Slack or, if you are in a full-time or part-time cohort, by connecting with your Cohort Lead in your weekly 1:1. If you’re not sure who to reach out to, post in the #online-ds-sp-000 channel in Slack.
-
-Once you're done with the 10 sections in module 1, please start on the project. Do that by forking this repository, cloning it locally, and working in the `student.ipynb` file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
-
-### 2. The Project Review
-
-_Note: On-campus students may have different review processes, please speak with your instructor._
-
-> **When you start on the project, please also reach out to an instructor immediately to schedule your project review** (if you're not sure who to schedule with, please ask in Slack!)
-
-#### What to expect from the Project Review
-
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation *(sometimes technical interviews will feel arbitrary or unfair - if you want to get the job, commenting on that is seldom a good choice)*.
-
-The project review is comprised of a 45 minute 1:1 session with one of the instructors. During your project review, be prepared to:
-
-#### 1. Deliver your PDF presentation to a non-technical stakeholder.
-In this phase of the review (~10 mins) your instructor will play the part of a non-technical stakeholder that you are presenting your findings to. The presentation  should not exceed 5 minutes, giving the "stakeholder" 5 minutes to ask questions.
-
-In the first half of the presentation (2-3 mins), you should summarize your methodology in a way that will be comprehensible to someone with no background in data science and that will increase their confidence in you and your findings. In the second half (the remaining 2-3 mins) you should summarize your findings and be ready to answer a couple of non-technical questions from the audience. The questions might relate to technical topics (sampling bias, confidence, etc) but will be asked in a non-technical way and need to be answered in a way that does not assume a background in statistics or machine learning. You can assume a smart, business stakeholder, with a non-quantitative college degree.
-
-#### 2. Go through the Jupyter Notebook, answering questions about how you made certain decisions. Be ready to explain things like:
-    * "How did you pick the question(s) that you did?"
-    * "Why are these questions important from a business perspective?"
-    * "How did you decide on the data cleaning options you performed?"
-    * "Why did you choose a given method or library?"
-    * "Why did you select those visualizations and what did you learn from each of them?"
-    * "Why did you pick those features as predictors?"
-    * "How would you interpret the results?"
-    * "How confident are you in the predictive quality of the results?"
-    * "What are some of the things that could cause the results to be wrong?"
-
-Think of the first phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
-
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
-
-What won't happen:
-* You won't be yelled at, belittled, or scolded
-* You won't be put on the spot without support
-* There's nothing you can do to instantly fail or blow it
-
-**Please note: We need to receive the URL of your repository at least 24 hours before and please have the project finished at least 3 hours before your review so we can look at your materials in advance.**
+```python
+# Relevant imports
+import os
+import pandas as pd
+import pandasql as ps
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+pd.set_option('mode.chained_assignment', None)
+```
 
 
-## Submitting your Project
+```python
+store_folder = 'Data'
+data = {}  # dictionary of dataframes
+total_size = 0  # size of all of the files
+for filename in os.listdir(store_folder):
+    path = (store_folder+'/'+filename)
+    size = os.stat(path).st_size/(1024**2)  # gets the size of the file in MB
+    total_size += size
+    print("reading", filename, size, 'MB')
+    try:
+        if path.endswith('tsv.gz'):  # for tsv files
+            data[filename[:-7]] = pd.read_csv(path,
+                                                delimiter='\t',
+                                                low_memory=False)
+        else:  # for csv files
+            data[filename[:-7]] = pd.read_csv(path,
+                                                low_memory=False)
+    except UnicodeDecodeError:
+        # Changing encoding to reflect utf-8 unknown characters
+        if path.endswith('tsv.gz'):
+            data[filename[:-7]] = pd.read_csv(path,
+                                            delimiter='\t',
+                                            low_memory=False,
+                                            encoding='windows-1252')
+        else:
+            data[filename[:-7]] = pd.read_csv(path,
+                                            low_memory=False,
+                                            encoding='windows-1252')
+print('Done loading %s MB' % total_size)
+```
 
- You’re almost done! In order to submit your project for review, include the following links to your work in the corresponding fields on the right-hand side of Learn.
+    reading imdb.name.basics.tsv.gz 190.70305347442627 MB
+    reading imdb.title.akas.tsv.gz 189.05681037902832 MB
+    reading imdb.title.basics.tsv.gz 119.10677146911621 MB
+    reading imdb.title.crew.tsv.gz 47.09960460662842 MB
+    reading imdb.title.episode.tsv.gz 26.076172828674316 MB
+    reading imdb.title.principals.tsv.gz 314.29254722595215 MB
+    reading imdb.title.ratings.tsv.gz 4.99261474609375 MB
+    Done loading 891.3275747299194 MB
+    
 
- 1. **GitHub Repo:** Now that you’ve completed your project in Jupyter Notebooks, push your work to GitHub and paste that link to the right. (If you need help doing so, review the resources [here](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0).)
-_Reminder: Make sure to also add and commit a pdf of your non-technical presentation to the repository with a file name of presentation.pdf._
-2. **Blog Post:** Include a link to your blog post.
-3. **Record Walkthrough:** Include a link to your video walkthrough.
-
- Hit "I'm done" to wrap it up. You will receive an email in order to schedule your review with your instructor.
-
-## Grading Rubric
-
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-1-project-v2-1/blob/master/module1_project_rubric.pdf). On-campus students may have different review processes, please speak with your instructor.
+```python
+# Open df from csv that was scraped as a group
+data['scraped_money'] = pd.read_csv('scraped_data/budget_ratings.csv', index_col=0)
+```
 
 
-## Summary
+```python
+# Loading each of the csv/tsv files into variables for pysql
+# Showing the columns for each for reference
 
-The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
+['nconst', 'primaryName', 'birthYear', 'deathYear', 'primaryProfession', 'knownForTitles']
+name_basics = data['imdb.name.basics']
 
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
+['titleId', 'ordering', 'title', 'region', 'language', 'types',
+    'attributes', 'isOriginalTitle']
+title_akas = data['imdb.title.akas']
 
-Finally, this is your first project. We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
+['tconst', 'titleType', 'primaryTitle', 'originalTitle', 'isAdult',
+    'startYear', 'endYear', 'runtimeMinutes', 'genres']
+title_basics = data['imdb.title.basics']
+
+['tconst', 'directors', 'writers']
+title_crew = data['imdb.title.crew']
+
+['tconst', 'parentTconst', 'seasonNumber', 'episodeNumber']
+title_episode = data['imdb.title.episode']
+
+['tconst', 'ordering', 'nconst', 'category', 'job', 'characters']
+title_principals = data['imdb.title.principals']
+
+['tconst', 'averageRating', 'numVotes']
+title_ratings = data['imdb.title.ratings']
+
+['tconst', 'budget', 'ww_gross', 'rating']
+scraped_money = data['scraped_money']
+```
+
+
+```python
+# Setting the index of scraped_money to match the rest
+scraped_money = scraped_money.set_index('tconst')
+```
+
+
+```python
+# Taking out the top ratings that have needed values(budget, gross, etc)
+# Cleaning ratings below, because of genres in rating column
+df = scraped_money
+ratings = ['G', 'PG', 'PG-13', 'R']
+df['rating'].value_counts().head(10)
+```
+
+
+
+
+    NotRated       5834
+    R              2272
+    PG-13          1265
+    TV-MA           949
+    Drama           871
+    Documentary     811
+    TV-14           760
+    PG              723
+    Unrated         663
+    Comedy          573
+    Name: rating, dtype: int64
+
+
+
+
+```python
+# Cleaning up scraped money to remove zeros and null values
+# Setting each relevent column to integers
+df['rating'] = df['rating'].map(lambda x: np.NaN if x not in ratings else x)
+df['budget'] = df['budget'].map(lambda x: np.NaN if x in[None, 0, '0'] else x)
+df['gross'] = df['gross'].map(lambda x: np.NaN if x in[None, 0, '0'] else x)
+df['ww_gross'] = df['ww_gross'].map(lambda x: np.NaN if x in[None, 0] else x)
+df = df.dropna()
+df['budget'] = df['budget'].astype('int64')
+df['ww_gross'] = df['ww_gross'].astype('int64')
+df['gross'] = df['gross'].astype('int64')
+df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>budget</th>
+      <th>gross</th>
+      <th>ww_gross</th>
+      <th>rating</th>
+    </tr>
+    <tr>
+      <th>tconst</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tt3567288</th>
+      <td>5000000</td>
+      <td>65206105</td>
+      <td>98450062</td>
+      <td>PG-13</td>
+    </tr>
+    <tr>
+      <th>tt3569230</th>
+      <td>30000000</td>
+      <td>1872994</td>
+      <td>42972994</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>tt3576728</th>
+      <td>30000000</td>
+      <td>490973</td>
+      <td>3087832</td>
+      <td>PG-13</td>
+    </tr>
+    <tr>
+      <th>tt3602422</th>
+      <td>1310000</td>
+      <td>38901</td>
+      <td>38901</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>tt3605418</th>
+      <td>2500000</td>
+      <td>36336</td>
+      <td>5567103</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>tt1605803</th>
+      <td>9000000</td>
+      <td>27000</td>
+      <td>27000</td>
+      <td>PG-13</td>
+    </tr>
+    <tr>
+      <th>tt1606378</th>
+      <td>92000000</td>
+      <td>67349198</td>
+      <td>304654182</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>tt1606389</th>
+      <td>30000000</td>
+      <td>125014030</td>
+      <td>196114570</td>
+      <td>PG-13</td>
+    </tr>
+    <tr>
+      <th>tt1608290</th>
+      <td>50000000</td>
+      <td>28848693</td>
+      <td>56722693</td>
+      <td>PG-13</td>
+    </tr>
+    <tr>
+      <th>tt1609488</th>
+      <td>350000</td>
+      <td>40645</td>
+      <td>40645</td>
+      <td>R</td>
+    </tr>
+  </tbody>
+</table>
+<p>1343 rows × 4 columns</p>
+</div>
+
+
+
+
+```python
+# Which is more profitable, domestic or worldwide markets?
+new_df = df.copy(deep=True)[0:100]
+
+fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(12.5, 8.5))
+sns.regplot("budget", "ww_gross", data=df, ax=ax)
+sns.regplot("budget", "gross", data=df, ax=ax)
+
+ax.legend(["Worldwide Gross", "Domestic Gross"])
+ax.set_title("Domestic & Worldwide Gross to Budget")
+ax.title.set_fontsize(20)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Budget (Billions)")
+ax.yaxis.label.set_text("Gross (Billions)")
+
+# As you can see, movies that are worldwide make more money than domestic movies
+```
+
+
+![png](img/output_8_0.png)
+
+
+
+```python
+# Take df(scraped_money) and add a column with the % difference of budget-> ww_gross
+# i.e ROI % (Return on investment %)
+def compare(budget, gross):
+    net = gross - budget
+    return net/budget
+df['perc'] = compare(df['budget'], df['ww_gross'])
+df.sort_values(by='perc', ascending=False)
+
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>budget</th>
+      <th>gross</th>
+      <th>ww_gross</th>
+      <th>rating</th>
+      <th>perc</th>
+    </tr>
+    <tr>
+      <th>tconst</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tt1560985</th>
+      <td>1000000</td>
+      <td>53261944</td>
+      <td>101758490</td>
+      <td>R</td>
+      <td>100.758490</td>
+    </tr>
+    <tr>
+      <th>tt7668870</th>
+      <td>880000</td>
+      <td>26020957</td>
+      <td>75462037</td>
+      <td>PG-13</td>
+      <td>84.752315</td>
+    </tr>
+    <tr>
+      <th>tt1591095</th>
+      <td>1500000</td>
+      <td>54009150</td>
+      <td>99557032</td>
+      <td>PG-13</td>
+      <td>65.371355</td>
+    </tr>
+    <tr>
+      <th>tt3713166</th>
+      <td>1000000</td>
+      <td>32482090</td>
+      <td>62882090</td>
+      <td>R</td>
+      <td>61.882090</td>
+    </tr>
+    <tr>
+      <th>tt5052448</th>
+      <td>4500000</td>
+      <td>176040665</td>
+      <td>272495873</td>
+      <td>R</td>
+      <td>59.554638</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>tt5303442</th>
+      <td>20000000</td>
+      <td>11255</td>
+      <td>11255</td>
+      <td>R</td>
+      <td>-0.999437</td>
+    </tr>
+    <tr>
+      <th>tt4414438</th>
+      <td>18000000</td>
+      <td>7162</td>
+      <td>7162</td>
+      <td>R</td>
+      <td>-0.999602</td>
+    </tr>
+    <tr>
+      <th>tt0762138</th>
+      <td>2500000</td>
+      <td>663</td>
+      <td>663</td>
+      <td>R</td>
+      <td>-0.999735</td>
+    </tr>
+    <tr>
+      <th>tt5143890</th>
+      <td>18000000</td>
+      <td>3259</td>
+      <td>3259</td>
+      <td>R</td>
+      <td>-0.999819</td>
+    </tr>
+    <tr>
+      <th>tt3789946</th>
+      <td>2124000</td>
+      <td>120</td>
+      <td>120</td>
+      <td>PG</td>
+      <td>-0.999944</td>
+    </tr>
+  </tbody>
+</table>
+<p>1343 rows × 5 columns</p>
+</div>
+
+
+
+
+```python
+q1 = """
+SELECT DISTINCT tconst, primaryTitle, genres, budget, ww_gross, rating, perc, runtimeMinutes, directors, writers
+FROM df
+JOIN title_basics tb
+USING(tconst)
+JOIN title_crew tc
+USING(tconst)
+JOIN title_akas ta
+ON tconst = titleId
+"""
+```
+
+
+```python
+# Join directors, writers, runtime, title, and genres to my scraped dataframe on 'tconst'.
+called_df = ps.sqldf(q1, locals())
+called_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tconst</th>
+      <th>primaryTitle</th>
+      <th>genres</th>
+      <th>budget</th>
+      <th>ww_gross</th>
+      <th>rating</th>
+      <th>perc</th>
+      <th>runtimeMinutes</th>
+      <th>directors</th>
+      <th>writers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>tt0326965</td>
+      <td>In My Sleep</td>
+      <td>Drama,Mystery,Thriller</td>
+      <td>1000000</td>
+      <td>30158</td>
+      <td>PG-13</td>
+      <td>-0.969842</td>
+      <td>104</td>
+      <td>nm1075006</td>
+      <td>nm1075006</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>tt0337692</td>
+      <td>On the Road</td>
+      <td>Adventure,Drama,Romance</td>
+      <td>25000000</td>
+      <td>9617377</td>
+      <td>R</td>
+      <td>-0.615305</td>
+      <td>124</td>
+      <td>nm0758574</td>
+      <td>nm0449616,nm1433580</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>tt0359950</td>
+      <td>The Secret Life of Walter Mitty</td>
+      <td>Comedy,Drama,Fantasy</td>
+      <td>90000000</td>
+      <td>188133322</td>
+      <td>PG</td>
+      <td>1.090370</td>
+      <td>114</td>
+      <td>nm0001774</td>
+      <td>nm0175726,nm0862122</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>tt0365907</td>
+      <td>A Walk Among the Tombstones</td>
+      <td>Action,Crime,Drama</td>
+      <td>28000000</td>
+      <td>58834384</td>
+      <td>R</td>
+      <td>1.101228</td>
+      <td>114</td>
+      <td>nm0291082</td>
+      <td>nm0088747,nm0291082</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>tt0369610</td>
+      <td>Jurassic World</td>
+      <td>Action,Adventure,Sci-Fi</td>
+      <td>150000000</td>
+      <td>1670400637</td>
+      <td>PG-13</td>
+      <td>10.136004</td>
+      <td>124</td>
+      <td>nm1119880</td>
+      <td>nm0415425,nm0798646,nm1119880,nm2081046,nm0000341</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1332</th>
+      <td>tt9208444</td>
+      <td>Impractical Jokers: The Movie</td>
+      <td>Comedy</td>
+      <td>3000000</td>
+      <td>10691091</td>
+      <td>PG-13</td>
+      <td>2.563697</td>
+      <td>92</td>
+      <td>nm0376260</td>
+      <td>nm0376260,nm2665746,nm2098978,nm1978079,nm1742600</td>
+    </tr>
+    <tr>
+      <th>1333</th>
+      <td>tt9214832</td>
+      <td>Emma.</td>
+      <td>Comedy,Drama</td>
+      <td>10000000</td>
+      <td>25587304</td>
+      <td>PG</td>
+      <td>1.558730</td>
+      <td>124</td>
+      <td>nm2127315</td>
+      <td>nm7414254,nm0000807</td>
+    </tr>
+    <tr>
+      <th>1334</th>
+      <td>tt9354944</td>
+      <td>Jexi</td>
+      <td>Comedy,Romance</td>
+      <td>5000000</td>
+      <td>9342073</td>
+      <td>R</td>
+      <td>0.868415</td>
+      <td>84</td>
+      <td>nm0524190,nm0601859</td>
+      <td>nm0524190,nm0601859</td>
+    </tr>
+    <tr>
+      <th>1335</th>
+      <td>tt9426210</td>
+      <td>Weathering with You</td>
+      <td>Animation,Drama,Family</td>
+      <td>11100000</td>
+      <td>193168568</td>
+      <td>PG-13</td>
+      <td>16.402574</td>
+      <td>112</td>
+      <td>nm1396121</td>
+      <td>nm1396121</td>
+    </tr>
+    <tr>
+      <th>1336</th>
+      <td>tt9779516</td>
+      <td>I Still Believe</td>
+      <td>Biography,Drama,Music</td>
+      <td>12000000</td>
+      <td>11502842</td>
+      <td>PG</td>
+      <td>-0.041430</td>
+      <td>116</td>
+      <td>nm3401779,nm2296528</td>
+      <td>nm1705229,nm2296528,nm0348197</td>
+    </tr>
+  </tbody>
+</table>
+<p>1337 rows × 10 columns</p>
+</div>
+
+
+
+
+```python
+# Top genre list from Max. Generated by comparing each genre median/mean to the median/mean of all.
+# https://github.com/zero731
+genre_list = ['Thriller',  'Animation',  'Sci-Fi',  'Mystery',  'Music',  'Adventure',  'Fantasy',  'Comedy']
+def fix_genre(genres):
+    """Function to split the genres into lists, and remove genres that arn't in the list"""
+    new_genres = []
+    genres = genres.split(',')
+    for g in genres:
+        if g in genre_list:
+            new_genres.append(g)
+    return new_genres
+genre_df = called_df.copy(deep=True).dropna()
+genre_df['genres'] = genre_df['genres'].apply(lambda x: fix_genre(x))
+# Remove movies that no longer have a genre
+genre_df['genres'] = genre_df['genres'].map(lambda x: np.NaN if not x else x)
+genre_df = genre_df.dropna()
+```
+
+
+```python
+# Explode genres
+# i.e  ['Comedy', 'Animation'] to one row of 'Animation' and one of 'Comedy'
+genre_df = genre_df.explode(column='genres')
+```
+
+
+```python
+# Sort by ROI %
+genre_df = genre_df.sort_values(by='perc', ascending=False)
+genre_df['runtimeMinutes'] = genre_df['runtimeMinutes'].astype('int64')
+```
+
+
+```python
+# What would be the optimal runtime of a movie
+fig, ax = plt.subplots(figsize=(10, 6.5))
+sns.distplot(genre_df['runtimeMinutes'][0:500], bins=10, ax=ax)
+ax.set_title("Run Time Compared vs Return On Investment %")
+ax.title.set_fontsize(30)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Runtime (Minutes)")
+ax.yaxis.label.set_text("Return on Investment %")
+ax.tick_params(axis='both', which='major', labelsize=15)
+
+# A runtime of 90-110 minutes would be ideal
+```
+
+
+![png](img/output_15_0.png)
+
+
+
+```python
+# Which genre would make the most
+fig, ax = plt.subplots(figsize=(10, 6.5))
+dicta = genre_df['genres'][0:200].value_counts().to_dict()
+ax.bar(dicta.keys(), dicta.values())
+
+dicta = genre_df['genres'][0:100].value_counts().to_dict()
+ax.bar(dicta.keys(), dicta.values())
+
+dicta = genre_df['genres'][0:50].value_counts().to_dict()
+ax.bar(dicta.keys(), dicta.values())
+
+ax.legend(["Top 200", "Top 100", "Top 50"])
+ax.set_title("Genre vs Return On Investment %")
+ax.title.set_fontsize(20)
+ax.yaxis.label.set_fontsize(17)
+ax.yaxis.label.set_text("Quanity")
+ax.tick_params(axis='both', which='major', labelsize=15)
+
+# Comedy or thriller seem to take the cake
+```
+
+
+![png](img/output_16_0.png)
+
+
+
+```python
+# Creating a dataframe of all the names to pull out director's and writer's names
+q2 = """
+SELECT *
+FROM name_basics
+"""
+name_df = ps.sqldf(q2, locals())
+name_df  # Name Dataframe
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>primaryName</th>
+      <th>birthYear</th>
+      <th>deathYear</th>
+      <th>primaryProfession</th>
+      <th>knownForTitles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm0000001</td>
+      <td>Fred Astaire</td>
+      <td>1899</td>
+      <td>1987</td>
+      <td>soundtrack,actor,miscellaneous</td>
+      <td>tt0053137,tt0031983,tt0050419,tt0072308</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm0000002</td>
+      <td>Lauren Bacall</td>
+      <td>1924</td>
+      <td>2014</td>
+      <td>actress,soundtrack</td>
+      <td>tt0071877,tt0038355,tt0117057,tt0037382</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm0000003</td>
+      <td>Brigitte Bardot</td>
+      <td>1934</td>
+      <td>\N</td>
+      <td>actress,soundtrack,music_department</td>
+      <td>tt0054452,tt0057345,tt0059956,tt0049189</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm0000004</td>
+      <td>John Belushi</td>
+      <td>1949</td>
+      <td>1982</td>
+      <td>actor,soundtrack,writer</td>
+      <td>tt0078723,tt0080455,tt0077975,tt0072562</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm0000005</td>
+      <td>Ingmar Bergman</td>
+      <td>1918</td>
+      <td>2007</td>
+      <td>writer,director,actor</td>
+      <td>tt0060827,tt0050976,tt0083922,tt0050986</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>10248840</th>
+      <td>nm9993714</td>
+      <td>Romeo del Rosario</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>animation_department,art_department</td>
+      <td>tt2455546</td>
+    </tr>
+    <tr>
+      <th>10248841</th>
+      <td>nm9993716</td>
+      <td>Essias Loberg</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>None</td>
+      <td>\N</td>
+    </tr>
+    <tr>
+      <th>10248842</th>
+      <td>nm9993717</td>
+      <td>Harikrishnan Rajan</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>cinematographer</td>
+      <td>tt8736744</td>
+    </tr>
+    <tr>
+      <th>10248843</th>
+      <td>nm9993718</td>
+      <td>Aayush Nair</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>cinematographer</td>
+      <td>\N</td>
+    </tr>
+    <tr>
+      <th>10248844</th>
+      <td>nm9993719</td>
+      <td>Andre Hill</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>None</td>
+      <td>\N</td>
+    </tr>
+  </tbody>
+</table>
+<p>10248845 rows × 6 columns</p>
+</div>
+
+
+
+
+```python
+name_df = name_df.set_index('nconst')
+name_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>primaryName</th>
+      <th>birthYear</th>
+      <th>deathYear</th>
+      <th>primaryProfession</th>
+      <th>knownForTitles</th>
+    </tr>
+    <tr>
+      <th>nconst</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>nm0000001</th>
+      <td>Fred Astaire</td>
+      <td>1899</td>
+      <td>1987</td>
+      <td>soundtrack,actor,miscellaneous</td>
+      <td>tt0053137,tt0031983,tt0050419,tt0072308</td>
+    </tr>
+    <tr>
+      <th>nm0000002</th>
+      <td>Lauren Bacall</td>
+      <td>1924</td>
+      <td>2014</td>
+      <td>actress,soundtrack</td>
+      <td>tt0071877,tt0038355,tt0117057,tt0037382</td>
+    </tr>
+    <tr>
+      <th>nm0000003</th>
+      <td>Brigitte Bardot</td>
+      <td>1934</td>
+      <td>\N</td>
+      <td>actress,soundtrack,music_department</td>
+      <td>tt0054452,tt0057345,tt0059956,tt0049189</td>
+    </tr>
+    <tr>
+      <th>nm0000004</th>
+      <td>John Belushi</td>
+      <td>1949</td>
+      <td>1982</td>
+      <td>actor,soundtrack,writer</td>
+      <td>tt0078723,tt0080455,tt0077975,tt0072562</td>
+    </tr>
+    <tr>
+      <th>nm0000005</th>
+      <td>Ingmar Bergman</td>
+      <td>1918</td>
+      <td>2007</td>
+      <td>writer,director,actor</td>
+      <td>tt0060827,tt0050976,tt0083922,tt0050986</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>nm9993714</th>
+      <td>Romeo del Rosario</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>animation_department,art_department</td>
+      <td>tt2455546</td>
+    </tr>
+    <tr>
+      <th>nm9993716</th>
+      <td>Essias Loberg</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>None</td>
+      <td>\N</td>
+    </tr>
+    <tr>
+      <th>nm9993717</th>
+      <td>Harikrishnan Rajan</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>cinematographer</td>
+      <td>tt8736744</td>
+    </tr>
+    <tr>
+      <th>nm9993718</th>
+      <td>Aayush Nair</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>cinematographer</td>
+      <td>\N</td>
+    </tr>
+    <tr>
+      <th>nm9993719</th>
+      <td>Andre Hill</td>
+      <td>\N</td>
+      <td>\N</td>
+      <td>None</td>
+      <td>\N</td>
+    </tr>
+  </tbody>
+</table>
+<p>10248845 rows × 5 columns</p>
+</div>
+
+
+
+
+```python
+director_split_df = genre_df.copy(deep=True)
+director_split_df['directors'] = director_split_df['directors'].map(lambda x: x.split(','))
+director_split_df['director_count'] = director_split_df['directors'].map(lambda x: len(x))
+```
+
+
+```python
+# How many directors would be ideal
+fig, ax = plt.subplots(figsize=(8.5, 6.5))
+sns.regplot("director_count", "perc", data=director_split_df, ax=ax)
+ax.set_title("ROI % vs Quantity of Directors")
+ax.title.set_fontsize(20)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Director Count")
+ax.yaxis.label.set_text("Return on Budget %")
+
+# The graph is showing a downward trend the more directors you have
+# So 1 director would be the best case.
+```
+
+
+![png](img/output_20_0.png)
+
+
+
+```python
+# Remove movies that have more than one director
+director_split_df['director_count'] = director_split_df['director_count'].apply(lambda x: 1 if x == 1 else np.NaN)
+director_split_df = director_split_df.dropna()
+director_split_df = director_split_df.drop(columns=['director_count'])
+director_split_df['directors'] =  director_split_df['directors'].apply(lambda x: x[0])
+```
+
+
+```python
+# Get the top 200 directors that have made more than one movie
+x_directors = director_split_df['directors'][0:200].value_counts().apply(lambda x: np.NaN if x < 2 else x).dropna()
+x_directors
+```
+
+
+
+
+    nm1490123    6.0
+    nm0796117    5.0
+    nm1443502    4.0
+    nm0484907    4.0
+    nm0440458    3.0
+                ... 
+    nm1720541    2.0
+    nm1291105    2.0
+    nm0281508    2.0
+    nm0795290    2.0
+    nm0300174    2.0
+    Name: directors, Length: 63, dtype: float64
+
+
+
+
+```python
+# Remove all but said top 200 from df
+director_split_df['directors'] = director_split_df['directors'].apply(lambda x: x if x in x_directors else np.NaN)
+director_split_df = director_split_df.dropna()
+director_split_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tconst</th>
+      <th>primaryTitle</th>
+      <th>genres</th>
+      <th>budget</th>
+      <th>ww_gross</th>
+      <th>rating</th>
+      <th>perc</th>
+      <th>runtimeMinutes</th>
+      <th>directors</th>
+      <th>writers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1288</th>
+      <td>tt7668870</td>
+      <td>Searching</td>
+      <td>Thriller</td>
+      <td>880000</td>
+      <td>75462037</td>
+      <td>PG-13</td>
+      <td>84.752315</td>
+      <td>102</td>
+      <td>nm3792134</td>
+      <td>nm3792134,nm3539578</td>
+    </tr>
+    <tr>
+      <th>1288</th>
+      <td>tt7668870</td>
+      <td>Searching</td>
+      <td>Mystery</td>
+      <td>880000</td>
+      <td>75462037</td>
+      <td>PG-13</td>
+      <td>84.752315</td>
+      <td>102</td>
+      <td>nm3792134</td>
+      <td>nm3792134,nm3539578</td>
+    </tr>
+    <tr>
+      <th>687</th>
+      <td>tt1591095</td>
+      <td>Insidious</td>
+      <td>Thriller</td>
+      <td>1500000</td>
+      <td>99557032</td>
+      <td>PG-13</td>
+      <td>65.371355</td>
+      <td>103</td>
+      <td>nm1490123</td>
+      <td>nm1191481</td>
+    </tr>
+    <tr>
+      <th>687</th>
+      <td>tt1591095</td>
+      <td>Insidious</td>
+      <td>Mystery</td>
+      <td>1500000</td>
+      <td>99557032</td>
+      <td>PG-13</td>
+      <td>65.371355</td>
+      <td>103</td>
+      <td>nm1490123</td>
+      <td>nm1191481</td>
+    </tr>
+    <tr>
+      <th>838</th>
+      <td>tt3713166</td>
+      <td>Unfriended</td>
+      <td>Thriller</td>
+      <td>1000000</td>
+      <td>62882090</td>
+      <td>R</td>
+      <td>61.882090</td>
+      <td>83</td>
+      <td>nm0300174</td>
+      <td>nm4532532</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>tt0409847</td>
+      <td>Cowboys &amp; Aliens</td>
+      <td>Sci-Fi</td>
+      <td>163000000</td>
+      <td>174822325</td>
+      <td>PG-13</td>
+      <td>0.072530</td>
+      <td>119</td>
+      <td>nm0269463</td>
+      <td>nm0649460,nm0476064,nm0511541,nm1318843,nm1319...</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>tt0409847</td>
+      <td>Cowboys &amp; Aliens</td>
+      <td>Thriller</td>
+      <td>163000000</td>
+      <td>174822325</td>
+      <td>PG-13</td>
+      <td>0.072530</td>
+      <td>119</td>
+      <td>nm0269463</td>
+      <td>nm0649460,nm0476064,nm0511541,nm1318843,nm1319...</td>
+    </tr>
+    <tr>
+      <th>967</th>
+      <td>tt4463894</td>
+      <td>Shaft</td>
+      <td>Comedy</td>
+      <td>35000000</td>
+      <td>21360215</td>
+      <td>R</td>
+      <td>-0.389708</td>
+      <td>111</td>
+      <td>nm1103162</td>
+      <td>nm0862781,nm1244069,nm1113415</td>
+    </tr>
+    <tr>
+      <th>992</th>
+      <td>tt4572792</td>
+      <td>The Book of Henry</td>
+      <td>Thriller</td>
+      <td>10000000</td>
+      <td>4596705</td>
+      <td>PG-13</td>
+      <td>-0.540330</td>
+      <td>105</td>
+      <td>nm1119880</td>
+      <td>nm3884127</td>
+    </tr>
+    <tr>
+      <th>865</th>
+      <td>tt3813310</td>
+      <td>Cop Car</td>
+      <td>Thriller</td>
+      <td>800000</td>
+      <td>143658</td>
+      <td>R</td>
+      <td>-0.820427</td>
+      <td>88</td>
+      <td>nm1218281</td>
+      <td>nm1218281,nm1755986</td>
+    </tr>
+  </tbody>
+</table>
+<p>202 rows × 10 columns</p>
+</div>
+
+
+
+
+```python
+director_dict = {}
+for director in director_split_df['directors'].unique():
+    director_dict[director] = director_split_df.loc[director_split_df['directors'] == director]['perc'].sum()
+director_df = pd.DataFrame(director_dict, index=[0])
+director_df = director_df.transpose().reset_index()
+director_df.columns=['nconst', 'value']
+director_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm3792134</td>
+      <td>169.504630</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm1490123</td>
+      <td>173.048808</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm0300174</td>
+      <td>123.764180</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm0821844</td>
+      <td>75.147252</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>nm1139726</td>
+      <td>9.988849</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>nm0000965</td>
+      <td>14.664250</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>nm0000631</td>
+      <td>17.501734</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>nm0000881</td>
+      <td>9.526093</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>nm0005363</td>
+      <td>21.266235</td>
+    </tr>
+  </tbody>
+</table>
+<p>63 rows × 2 columns</p>
+</div>
+
+
+
+
+```python
+# Add in the real name of each director from name_basics based on nconst
+director_df['name'] = director_df['nconst'].apply(lambda x: name_df.loc[x]['primaryName'])
+director_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm3792134</td>
+      <td>169.504630</td>
+      <td>Aneesh Chaganty</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm1490123</td>
+      <td>173.048808</td>
+      <td>James Wan</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm0300174</td>
+      <td>123.764180</td>
+      <td>Levan Gabriadze</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+      <td>Jordan Peele</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm0821844</td>
+      <td>75.147252</td>
+      <td>Daniel Stamm</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>nm1139726</td>
+      <td>9.988849</td>
+      <td>Neil Burger</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>nm0000965</td>
+      <td>14.664250</td>
+      <td>Danny Boyle</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>nm0000631</td>
+      <td>17.501734</td>
+      <td>Ridley Scott</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>nm0000881</td>
+      <td>9.526093</td>
+      <td>Michael Bay</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>nm0005363</td>
+      <td>21.266235</td>
+      <td>Guy Ritchie</td>
+    </tr>
+  </tbody>
+</table>
+<p>63 rows × 3 columns</p>
+</div>
+
+
+
+
+```python
+# Which directors would be ideal to hire
+fig, ax = plt.subplots(figsize=(12, 12))
+sns.barplot('value', 'name', data=director_df.sort_values(by='value', ascending=False), ax=ax)
+ax.set_title("Top Directors by Return on Budget for All Their Movies")
+ax.title.set_fontsize(20)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Return on Budget %")
+ax.yaxis.label.set_text("Director Name")
+
+# Here are the top 60 directors
+```
+
+
+![png](img/output_26_0.png)
+
+
+
+```python
+# How many writers would be ideal
+writer_split_df = genre_df.copy(deep=True)
+writer_split_df['writers'] = writer_split_df['writers'].map(lambda x: x.split(','))
+writer_split_df['writer_count'] = writer_split_df['writers'].map(lambda x: len(x))
+
+fig, ax = plt.subplots(figsize=(8.5, 6.5))
+sns.regplot("writer_count", "perc", data=writer_split_df, ax=ax)
+ax.set_title("ROI % vs Quantity of Writers")
+ax.title.set_fontsize(20)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Writer Count")
+ax.yaxis.label.set_text("Return on Budget %")
+# The graph is showing a downward trend the more writers you have
+# So 1 writer would be the best case.
+```
+
+
+![png](img/output_27_0.png)
+
+
+
+```python
+# Parse and remove movies with more than one writer
+writer_split_df['writer_count'] = writer_split_df['writer_count'].apply(lambda x: 1 if x == 1 else np.NaN)
+writer_split_df = writer_split_df.dropna()
+writer_split_df = writer_split_df.drop(columns=['writer_count'])
+writer_split_df['writers'] =  writer_split_df['writers'].apply(lambda x: x[0])
+# Create a list of writers that have written more than one movie
+x_writers = writer_split_df['writers'][0:200].value_counts().apply(lambda x: np.NaN if x < 2 else x).dropna()
+x_writers
+```
+
+
+
+
+    nm0796117    6.0
+    nm0000095    5.0
+    nm1191481    5.0
+    nm1347153    5.0
+    nm1443502    4.0
+    nm2752098    3.0
+    nm0831557    3.0
+    nm0009190    3.0
+    nm2704527    3.0
+    nm1108556    3.0
+    nm0191717    3.0
+    nm1959505    3.0
+    nm0839812    2.0
+    nm0797321    2.0
+    nm1245146    2.0
+    nm1098493    2.0
+    nm0204030    2.0
+    nm1440023    2.0
+    nm4170048    2.0
+    nm1557594    2.0
+    nm4532532    2.0
+    nm0746830    2.0
+    nm0472567    2.0
+    nm0424901    2.0
+    nm0001675    2.0
+    nm0934483    2.0
+    nm2477891    2.0
+    nm0426059    2.0
+    nm0847859    2.0
+    nm0634240    2.0
+    nm0159900    2.0
+    nm0307497    2.0
+    nm2133655    2.0
+    nm0642277    2.0
+    nm5429637    2.0
+    nm0249291    2.0
+    nm0083348    2.0
+    nm0629272    2.0
+    nm3398282    2.0
+    nm0567620    2.0
+    nm0426500    2.0
+    nm1867458    2.0
+    nm0776885    2.0
+    nm0868066    2.0
+    nm0218621    2.0
+    nm3227090    2.0
+    nm0792263    2.0
+    Name: writers, dtype: float64
+
+
+
+
+```python
+# Get top movies with one writer who has written more than one movie
+writer_split_df['writers'] = writer_split_df['writers'].apply(lambda x: x if x in x_writers else np.NaN)
+writer_split_df = writer_split_df.dropna()
+writer_split_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tconst</th>
+      <th>primaryTitle</th>
+      <th>genres</th>
+      <th>budget</th>
+      <th>ww_gross</th>
+      <th>rating</th>
+      <th>perc</th>
+      <th>runtimeMinutes</th>
+      <th>directors</th>
+      <th>writers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>687</th>
+      <td>tt1591095</td>
+      <td>Insidious</td>
+      <td>Thriller</td>
+      <td>1500000</td>
+      <td>99557032</td>
+      <td>PG-13</td>
+      <td>65.371355</td>
+      <td>103</td>
+      <td>nm1490123</td>
+      <td>nm1191481</td>
+    </tr>
+    <tr>
+      <th>687</th>
+      <td>tt1591095</td>
+      <td>Insidious</td>
+      <td>Mystery</td>
+      <td>1500000</td>
+      <td>99557032</td>
+      <td>PG-13</td>
+      <td>65.371355</td>
+      <td>103</td>
+      <td>nm1490123</td>
+      <td>nm1191481</td>
+    </tr>
+    <tr>
+      <th>838</th>
+      <td>tt3713166</td>
+      <td>Unfriended</td>
+      <td>Thriller</td>
+      <td>1000000</td>
+      <td>62882090</td>
+      <td>R</td>
+      <td>61.882090</td>
+      <td>83</td>
+      <td>nm0300174</td>
+      <td>nm4532532</td>
+    </tr>
+    <tr>
+      <th>838</th>
+      <td>tt3713166</td>
+      <td>Unfriended</td>
+      <td>Mystery</td>
+      <td>1000000</td>
+      <td>62882090</td>
+      <td>R</td>
+      <td>61.882090</td>
+      <td>83</td>
+      <td>nm0300174</td>
+      <td>nm4532532</td>
+    </tr>
+    <tr>
+      <th>1074</th>
+      <td>tt5052448</td>
+      <td>Get Out</td>
+      <td>Thriller</td>
+      <td>4500000</td>
+      <td>272495873</td>
+      <td>R</td>
+      <td>59.554638</td>
+      <td>104</td>
+      <td>nm1443502</td>
+      <td>nm1443502</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1130</th>
+      <td>tt5610554</td>
+      <td>Tully</td>
+      <td>Comedy</td>
+      <td>13000000</td>
+      <td>15636462</td>
+      <td>R</td>
+      <td>0.202805</td>
+      <td>95</td>
+      <td>nm0718646</td>
+      <td>nm1959505</td>
+    </tr>
+    <tr>
+      <th>1130</th>
+      <td>tt5610554</td>
+      <td>Tully</td>
+      <td>Mystery</td>
+      <td>13000000</td>
+      <td>15636462</td>
+      <td>R</td>
+      <td>0.202805</td>
+      <td>95</td>
+      <td>nm0718646</td>
+      <td>nm1959505</td>
+    </tr>
+    <tr>
+      <th>1207</th>
+      <td>tt6348138</td>
+      <td>Missing Link</td>
+      <td>Animation</td>
+      <td>100000000</td>
+      <td>26249469</td>
+      <td>PG</td>
+      <td>-0.737505</td>
+      <td>93</td>
+      <td>nm2752098</td>
+      <td>nm2752098</td>
+    </tr>
+    <tr>
+      <th>1207</th>
+      <td>tt6348138</td>
+      <td>Missing Link</td>
+      <td>Adventure</td>
+      <td>100000000</td>
+      <td>26249469</td>
+      <td>PG</td>
+      <td>-0.737505</td>
+      <td>93</td>
+      <td>nm2752098</td>
+      <td>nm2752098</td>
+    </tr>
+    <tr>
+      <th>1207</th>
+      <td>tt6348138</td>
+      <td>Missing Link</td>
+      <td>Comedy</td>
+      <td>100000000</td>
+      <td>26249469</td>
+      <td>PG</td>
+      <td>-0.737505</td>
+      <td>93</td>
+      <td>nm2752098</td>
+      <td>nm2752098</td>
+    </tr>
+  </tbody>
+</table>
+<p>121 rows × 10 columns</p>
+</div>
+
+
+
+
+```python
+writer_dict = {}
+# Get the values for each writer, based on overall ROI %
+for writer in writer_split_df['writers'].unique():
+    writer_dict[writer] = writer_split_df.loc[writer_split_df['writers'] == writer]['perc'].sum()
+writer_df = pd.DataFrame(writer_dict, index=[0])
+writer_df = writer_df.transpose().reset_index()
+writer_df.columns=['nconst', 'value']
+writer_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm1191481</td>
+      <td>164.648328</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm4532532</td>
+      <td>123.764180</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm0796117</td>
+      <td>91.150728</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm1245146</td>
+      <td>50.283028</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>nm2477891</td>
+      <td>38.868785</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>nm0839812</td>
+      <td>30.049974</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>nm3227090</td>
+      <td>27.765748</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>nm0868066</td>
+      <td>25.190732</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>nm3398282</td>
+      <td>22.442269</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>nm0218621</td>
+      <td>20.401577</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>nm0249291</td>
+      <td>21.592208</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>nm0000095</td>
+      <td>18.698824</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>nm1440023</td>
+      <td>16.069262</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>nm4170048</td>
+      <td>11.346532</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>nm0426059</td>
+      <td>11.614381</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>nm0426500</td>
+      <td>11.749900</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>nm2133655</td>
+      <td>10.959843</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>nm0204030</td>
+      <td>10.717662</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>nm0083348</td>
+      <td>10.428054</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>nm0472567</td>
+      <td>9.526093</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>nm1108556</td>
+      <td>14.035038</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>nm0797321</td>
+      <td>9.173124</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>nm0009190</td>
+      <td>12.605759</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>nm0634240</td>
+      <td>8.373738</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>nm1557594</td>
+      <td>5.701346</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>nm0629272</td>
+      <td>6.696530</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>nm0792263</td>
+      <td>4.165049</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>nm1347153</td>
+      <td>9.606600</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>nm5429637</td>
+      <td>4.933180</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>nm0746830</td>
+      <td>4.548559</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>nm0567620</td>
+      <td>4.520635</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>nm0001675</td>
+      <td>4.338097</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>nm0847859</td>
+      <td>3.195477</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>nm0934483</td>
+      <td>3.336425</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>nm0831557</td>
+      <td>4.859527</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>nm1867458</td>
+      <td>3.061581</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>nm0307497</td>
+      <td>2.915922</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>nm1098493</td>
+      <td>2.877903</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>nm0191717</td>
+      <td>4.268622</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>nm0159900</td>
+      <td>2.690695</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>nm1959505</td>
+      <td>3.908898</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>nm0776885</td>
+      <td>2.581361</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>nm0642277</td>
+      <td>2.478458</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>nm2704527</td>
+      <td>3.712039</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>nm0424901</td>
+      <td>2.298113</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>nm2752098</td>
+      <td>0.144454</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Add in the names of said writers from name_basics
+writer_df['name'] = writer_df['nconst'].apply(lambda x: name_df.loc[x]['primaryName'])
+writer_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm1191481</td>
+      <td>164.648328</td>
+      <td>Leigh Whannell</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm4532532</td>
+      <td>123.764180</td>
+      <td>Nelson Greaves</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+      <td>Jordan Peele</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm0796117</td>
+      <td>91.150728</td>
+      <td>M. Night Shyamalan</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm1245146</td>
+      <td>50.283028</td>
+      <td>Scott Lobdell</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>nm2477891</td>
+      <td>38.868785</td>
+      <td>Gary Dauberman</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>nm0839812</td>
+      <td>30.049974</td>
+      <td>Stephen Susco</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>nm3227090</td>
+      <td>27.765748</td>
+      <td>Damien Chazelle</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>nm0868066</td>
+      <td>25.190732</td>
+      <td>Akira Toriyama</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>nm3398282</td>
+      <td>22.442269</td>
+      <td>Scotty Landes</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>nm0218621</td>
+      <td>20.401577</td>
+      <td>James DeMonaco</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>nm0249291</td>
+      <td>21.592208</td>
+      <td>Joel Edgerton</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>nm0000095</td>
+      <td>18.698824</td>
+      <td>Woody Allen</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>nm1440023</td>
+      <td>16.069262</td>
+      <td>Simon Barrett</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>nm4170048</td>
+      <td>11.346532</td>
+      <td>Ari Aster</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>nm0426059</td>
+      <td>11.614381</td>
+      <td>Rian Johnson</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>nm0426500</td>
+      <td>11.749900</td>
+      <td>Kurt Johnstad</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>nm2133655</td>
+      <td>10.959843</td>
+      <td>Chris Sparling</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>nm0204030</td>
+      <td>10.717662</td>
+      <td>William Davies</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>nm0083348</td>
+      <td>10.428054</td>
+      <td>Brad Bird</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>nm0472567</td>
+      <td>9.526093</td>
+      <td>Ehren Kruger</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>nm1108556</td>
+      <td>14.035038</td>
+      <td>Boots Riley</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>nm0797321</td>
+      <td>9.173124</td>
+      <td>Brian Sieve</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>nm0009190</td>
+      <td>12.605759</td>
+      <td>J.J. Abrams</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>nm0634240</td>
+      <td>8.373738</td>
+      <td>Christopher Nolan</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>nm1557594</td>
+      <td>5.701346</td>
+      <td>Dan Fogelman</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>nm0629272</td>
+      <td>6.696530</td>
+      <td>Andrew Niccol</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>nm0792263</td>
+      <td>4.165049</td>
+      <td>Taylor Sheridan</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>nm1347153</td>
+      <td>9.606600</td>
+      <td>Tyler Perry</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>nm5429637</td>
+      <td>4.933180</td>
+      <td>Christina Hodson</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>nm0746830</td>
+      <td>4.548559</td>
+      <td>J.K. Rowling</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>nm0567620</td>
+      <td>4.520635</td>
+      <td>John Michael McDonagh</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>nm0001675</td>
+      <td>4.338097</td>
+      <td>Robert Rodriguez</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>nm0847859</td>
+      <td>3.195477</td>
+      <td>David E. Talbert</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>nm0934483</td>
+      <td>3.336425</td>
+      <td>Kurt Wimmer</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>nm0831557</td>
+      <td>4.859527</td>
+      <td>Nicholas Stoller</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>nm1867458</td>
+      <td>3.061581</td>
+      <td>Sonny Mallhi</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>nm0307497</td>
+      <td>2.915922</td>
+      <td>Alex Garland</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>nm1098493</td>
+      <td>2.877903</td>
+      <td>Rawson Marshall Thurber</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>nm0191717</td>
+      <td>4.268622</td>
+      <td>Jill Culton</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>nm0159900</td>
+      <td>2.690695</td>
+      <td>Shawn Christensen</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>nm1959505</td>
+      <td>3.908898</td>
+      <td>Diablo Cody</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>nm0776885</td>
+      <td>2.581361</td>
+      <td>Bragi F. Schut</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>nm0642277</td>
+      <td>2.478458</td>
+      <td>Patrick O'Neill</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>nm2704527</td>
+      <td>3.712039</td>
+      <td>Gideon Defoe</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>nm0424901</td>
+      <td>2.298113</td>
+      <td>David Leslie Johnson-McGoldrick</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>nm2752098</td>
+      <td>0.144454</td>
+      <td>Chris Butler</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Which writers would be best
+fig, ax = plt.subplots(figsize=(12, 12))
+sns.barplot('value', 'name', data=writer_df.sort_values(by='value', ascending=False), ax=ax)
+ax.set_title("Top Writers by Return on Budget for All Their Movies")
+ax.title.set_fontsize(20)
+ax.xaxis.label.set_fontsize(20)
+ax.yaxis.label.set_fontsize(20)
+ax.xaxis.label.set_text("Return on Budget %")
+ax.yaxis.label.set_text("Writer Name")
+
+# Here are the top 60 writers
+```
+
+
+![png](img/output_32_0.png)
+
+
+
+```python
+# Top 10 writers
+writer_df[0:10]
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm1191481</td>
+      <td>164.648328</td>
+      <td>Leigh Whannell</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm4532532</td>
+      <td>123.764180</td>
+      <td>Nelson Greaves</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+      <td>Jordan Peele</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm0796117</td>
+      <td>91.150728</td>
+      <td>M. Night Shyamalan</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm1245146</td>
+      <td>50.283028</td>
+      <td>Scott Lobdell</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>nm2477891</td>
+      <td>38.868785</td>
+      <td>Gary Dauberman</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>nm0839812</td>
+      <td>30.049974</td>
+      <td>Stephen Susco</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>nm3227090</td>
+      <td>27.765748</td>
+      <td>Damien Chazelle</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>nm0868066</td>
+      <td>25.190732</td>
+      <td>Akira Toriyama</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>nm3398282</td>
+      <td>22.442269</td>
+      <td>Scotty Landes</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Top 10 directors
+director_df[0:10]
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>nconst</th>
+      <th>value</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>nm3792134</td>
+      <td>169.504630</td>
+      <td>Aneesh Chaganty</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>nm1490123</td>
+      <td>173.048808</td>
+      <td>James Wan</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nm0300174</td>
+      <td>123.764180</td>
+      <td>Levan Gabriadze</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>nm1443502</td>
+      <td>142.627735</td>
+      <td>Jordan Peele</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nm0821844</td>
+      <td>75.147252</td>
+      <td>Daniel Stamm</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>nm0796117</td>
+      <td>91.150728</td>
+      <td>M. Night Shyamalan</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>nm2497546</td>
+      <td>73.569613</td>
+      <td>David F. Sandberg</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>nm0905592</td>
+      <td>38.927414</td>
+      <td>Jeff Wadlow</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>nm0484907</td>
+      <td>62.638617</td>
+      <td>Christopher Landon</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>nm0094435</td>
+      <td>44.365252</td>
+      <td>Bong Joon Ho</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Best movie would be worldwide
+# directed and written by one of the top 10
+# rated PG-13 or R
+# either a comedy or a thriller
+# being 90-110 minutes long
+```
