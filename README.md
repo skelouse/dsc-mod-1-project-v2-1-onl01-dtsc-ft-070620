@@ -1055,13 +1055,13 @@ x_directors
     nm0796117    5.0
     nm0484907    4.0
     nm1443502    4.0
-    nm0000965    3.0
+    nm0323239    3.0
                 ... 
-    nm0839812    2.0
-    nm1417392    2.0
-    nm0948488    2.0
-    nm0002657    2.0
-    nm0795290    2.0
+    nm0190859    2.0
+    nm0619110    2.0
+    nm1720541    2.0
+    nm1980431    2.0
+    nm0680846    2.0
     Name: directors, Length: 63, dtype: float64
 
 
@@ -1515,59 +1515,22 @@ writer_split_df = writer_split_df.drop(columns=['writer_count'])
 writer_split_df['writers'] =  writer_split_df['writers'].apply(lambda x: x[0])
 # Create a list of writers that have written more than one movie
 x_writers = writer_split_df['writers'][0:200].value_counts().apply(lambda x: np.NaN if x < 2 else x).dropna()
-x_writers
+x_writers[0:10]
 ```
 
 
 
 
     nm0796117    6.0
-    nm1347153    5.0
     nm1191481    5.0
+    nm1347153    5.0
     nm0000095    5.0
     nm1443502    4.0
-    nm2752098    3.0
-    nm0009190    3.0
     nm0191717    3.0
-    nm0831557    3.0
-    nm1108556    3.0
-    nm1959505    3.0
+    nm0009190    3.0
+    nm2752098    3.0
     nm2704527    3.0
-    nm0847859    2.0
-    nm0746830    2.0
-    nm0307497    2.0
-    nm0001675    2.0
-    nm0567620    2.0
-    nm0083348    2.0
-    nm1245146    2.0
-    nm0792263    2.0
-    nm0642277    2.0
-    nm1557594    2.0
-    nm0797321    2.0
-    nm0218621    2.0
-    nm2133655    2.0
-    nm0426059    2.0
-    nm3227090    2.0
-    nm1867458    2.0
-    nm0249291    2.0
-    nm4532532    2.0
-    nm2477891    2.0
-    nm0839812    2.0
-    nm0629272    2.0
-    nm1098493    2.0
-    nm0868066    2.0
-    nm0472567    2.0
-    nm0426500    2.0
-    nm3398282    2.0
-    nm0204030    2.0
-    nm0634240    2.0
-    nm4170048    2.0
-    nm0159900    2.0
-    nm0776885    2.0
-    nm5429637    2.0
-    nm0934483    2.0
-    nm0424901    2.0
-    nm1440023    2.0
+    nm0831557    3.0
     Name: writers, dtype: float64
 
 
@@ -1773,7 +1736,7 @@ for writer in writer_split_df['writers'].unique():
 writer_df = pd.DataFrame(writer_dict, index=[0])
 writer_df = writer_df.transpose().reset_index()
 writer_df.columns=['nconst', 'value']
-writer_df
+writer_df[0:10]
 ```
 
 
@@ -1852,191 +1815,6 @@ writer_df
       <td>nm3398282</td>
       <td>22.442269</td>
     </tr>
-    <tr>
-      <th>10</th>
-      <td>nm0218621</td>
-      <td>20.401577</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>nm0249291</td>
-      <td>21.592208</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>nm0000095</td>
-      <td>18.698824</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>nm1440023</td>
-      <td>16.069262</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>nm4170048</td>
-      <td>11.346532</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>nm0426059</td>
-      <td>11.614381</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>nm0426500</td>
-      <td>11.749900</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>nm2133655</td>
-      <td>10.959843</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>nm0204030</td>
-      <td>10.717662</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>nm0083348</td>
-      <td>10.428054</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>nm0472567</td>
-      <td>9.526093</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>nm1108556</td>
-      <td>14.035038</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>nm0797321</td>
-      <td>9.173124</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>nm0009190</td>
-      <td>12.605759</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>nm0634240</td>
-      <td>8.373738</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>nm1557594</td>
-      <td>5.701346</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>nm0629272</td>
-      <td>6.696530</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>nm0792263</td>
-      <td>4.165049</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>nm1347153</td>
-      <td>9.606600</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>nm5429637</td>
-      <td>4.933180</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>nm0746830</td>
-      <td>4.548559</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>nm0567620</td>
-      <td>4.520635</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>nm0001675</td>
-      <td>4.338097</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>nm0847859</td>
-      <td>3.195477</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>nm0934483</td>
-      <td>3.336425</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>nm0831557</td>
-      <td>4.859527</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>nm1867458</td>
-      <td>3.061581</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>nm0307497</td>
-      <td>2.915922</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>nm1098493</td>
-      <td>2.877903</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>nm0191717</td>
-      <td>4.268622</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>nm0159900</td>
-      <td>2.690695</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>nm1959505</td>
-      <td>3.908898</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>nm0776885</td>
-      <td>2.581361</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>nm0642277</td>
-      <td>2.478458</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>nm2704527</td>
-      <td>3.712039</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>nm0424901</td>
-      <td>2.298113</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>nm2752098</td>
-      <td>0.144454</td>
-    </tr>
   </tbody>
 </table>
 </div>
@@ -2047,7 +1825,7 @@ writer_df
 ```python
 # Add in the names of said writers from name_basics
 writer_df['name'] = writer_df['nconst'].apply(lambda x: name_df.loc[x]['primaryName'])
-writer_df
+writer_df[0:10]
 ```
 
 
@@ -2136,228 +1914,6 @@ writer_df
       <td>nm3398282</td>
       <td>22.442269</td>
       <td>Scotty Landes</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>nm0218621</td>
-      <td>20.401577</td>
-      <td>James DeMonaco</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>nm0249291</td>
-      <td>21.592208</td>
-      <td>Joel Edgerton</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>nm0000095</td>
-      <td>18.698824</td>
-      <td>Woody Allen</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>nm1440023</td>
-      <td>16.069262</td>
-      <td>Simon Barrett</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>nm4170048</td>
-      <td>11.346532</td>
-      <td>Ari Aster</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>nm0426059</td>
-      <td>11.614381</td>
-      <td>Rian Johnson</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>nm0426500</td>
-      <td>11.749900</td>
-      <td>Kurt Johnstad</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>nm2133655</td>
-      <td>10.959843</td>
-      <td>Chris Sparling</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>nm0204030</td>
-      <td>10.717662</td>
-      <td>William Davies</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>nm0083348</td>
-      <td>10.428054</td>
-      <td>Brad Bird</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>nm0472567</td>
-      <td>9.526093</td>
-      <td>Ehren Kruger</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>nm1108556</td>
-      <td>14.035038</td>
-      <td>Boots Riley</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>nm0797321</td>
-      <td>9.173124</td>
-      <td>Brian Sieve</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>nm0009190</td>
-      <td>12.605759</td>
-      <td>J.J. Abrams</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>nm0634240</td>
-      <td>8.373738</td>
-      <td>Christopher Nolan</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>nm1557594</td>
-      <td>5.701346</td>
-      <td>Dan Fogelman</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>nm0629272</td>
-      <td>6.696530</td>
-      <td>Andrew Niccol</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>nm0792263</td>
-      <td>4.165049</td>
-      <td>Taylor Sheridan</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>nm1347153</td>
-      <td>9.606600</td>
-      <td>Tyler Perry</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>nm5429637</td>
-      <td>4.933180</td>
-      <td>Christina Hodson</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>nm0746830</td>
-      <td>4.548559</td>
-      <td>J.K. Rowling</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>nm0567620</td>
-      <td>4.520635</td>
-      <td>John Michael McDonagh</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>nm0001675</td>
-      <td>4.338097</td>
-      <td>Robert Rodriguez</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>nm0847859</td>
-      <td>3.195477</td>
-      <td>David E. Talbert</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>nm0934483</td>
-      <td>3.336425</td>
-      <td>Kurt Wimmer</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>nm0831557</td>
-      <td>4.859527</td>
-      <td>Nicholas Stoller</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>nm1867458</td>
-      <td>3.061581</td>
-      <td>Sonny Mallhi</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>nm0307497</td>
-      <td>2.915922</td>
-      <td>Alex Garland</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>nm1098493</td>
-      <td>2.877903</td>
-      <td>Rawson Marshall Thurber</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>nm0191717</td>
-      <td>4.268622</td>
-      <td>Jill Culton</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>nm0159900</td>
-      <td>2.690695</td>
-      <td>Shawn Christensen</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>nm1959505</td>
-      <td>3.908898</td>
-      <td>Diablo Cody</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>nm0776885</td>
-      <td>2.581361</td>
-      <td>Bragi F. Schut</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>nm0642277</td>
-      <td>2.478458</td>
-      <td>Patrick O'Neill</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>nm2704527</td>
-      <td>3.712039</td>
-      <td>Gideon Defoe</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>nm0424901</td>
-      <td>2.298113</td>
-      <td>David Leslie Johnson-McGoldrick</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>nm2752098</td>
-      <td>0.144454</td>
-      <td>Chris Butler</td>
     </tr>
   </tbody>
 </table>
