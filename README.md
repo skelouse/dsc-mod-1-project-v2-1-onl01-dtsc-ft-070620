@@ -1416,19 +1416,3 @@ director_order
            'Adam Robitel', 'Christopher Landon', 'Alex Kendrick',
            'M. Night Shyamalan', 'Darren Aronofsky', 'Andy Muschietti'],
           dtype='object', name='name')
-
-
-
-
-```python
-# Best movie would be worldwide
-# directed and written by one of the top 10
-# rated PG-13 or R
-# either a comedy or a thriller
-# being 90-110 minutes long
-```
-
-
-```python
-# add a future work slide to presentation
-```
