@@ -3,7 +3,6 @@
 
 ## Final Project Submission
 
-Please fill out:
 * Student name: Sam Stoltenberg
 * Student pace: full time
 * Scheduled project review date/time: 8/7/2020 6:00PM
