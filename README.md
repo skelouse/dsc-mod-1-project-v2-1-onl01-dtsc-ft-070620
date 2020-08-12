@@ -1871,13 +1871,9 @@ def main():
 director_order
 ```
 
-
-
-
-    Index(['William Brent Bell', 'Jordan Peele', 'James Wan', 'David F. Sandberg',
-           'Adam Robitel', 'Christopher Landon', 'Alex Kendrick',
-           'M. Night Shyamalan', 'Darren Aronofsky', 'Andy Muschietti'],
-          dtype='object', name='name')
+'William Brent Bell', 'Jordan Peele', 'James Wan', 'David F. Sandberg',
+'Adam Robitel', 'Christopher Landon', 'Alex Kendrick',
+'M. Night Shyamalan', 'Darren Aronofsky', 'Andy Muschietti'
 
 
 
@@ -1887,7 +1883,3 @@ A movie should be a Mystery or Animation for the greatest return on investment.
 
 A solo director should be chosen, and That director should be one from the top 10 list above.
 
-
-```python
-
-```
