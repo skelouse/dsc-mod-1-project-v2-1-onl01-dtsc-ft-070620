@@ -1,0 +1,283 @@
+********************
+********************
+
+imdb.name.basics
+
+********************
+describe()
+            nconst  primaryName birthYear deathYear primaryProfession knownForTitles
+count     10248845     10248845  10248845  10248845           8141604       10248845
+unique    10248845      8015830       488       430             19992        4277573
+top     nm10844274  David Smith        \N        \N             actor             \N
+freq             1          317   9743249  10069360           1854816        1807077
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>      
+RangeIndex: 10248845 entries, 0 to 10248844
+Data columns (total 6 columns):
+ #   Column             Dtype
+---  ------             -----
+ 0   nconst             object
+ 1   primaryName        object
+ 2   birthYear          object
+ 3   deathYear          object
+ 4   primaryProfession  object
+ 5   knownForTitles     object
+dtypes: object(6)
+memory usage: 469.2+ MB
+None
+********************
+.iloc[0]
+nconst                                             nm0000001
+primaryName                                     Fred Astaire
+birthYear                                               1899
+deathYear                                               1987
+primaryProfession             soundtrack,actor,miscellaneous
+knownForTitles       tt0053137,tt0031983,tt0050419,tt0072308
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.akas
+
+********************
+describe()
+           ordering
+count  2.246829e+07
+mean   3.994136e+00
+std    3.217092e+00
+min    1.000000e+00
+25%    2.000000e+00
+50%    4.000000e+00
+75%    6.000000e+00
+max    1.420000e+02
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22468292 entries, 0 to 22468291
+Data columns (total 8 columns):
+ #   Column           Dtype
+---  ------           -----
+ 0   titleId          object
+ 1   ordering         int64
+ 2   title            object
+ 3   region           object
+ 4   language         object
+ 5   types            object
+ 6   attributes       object
+ 7   isOriginalTitle  object
+dtypes: int64(1), object(7)
+memory usage: 1.3+ GB
+None
+********************
+.iloc[0]
+titleId              tt0000001
+ordering                     1
+title               Карменсіта
+region                      UA
+language                    \N
+types              imdbDisplay
+attributes                  \N
+isOriginalTitle              0
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.basics
+
+********************
+describe()
+            isAdult
+count  7.020395e+06
+mean   3.445704e-02
+std    2.742299e+00
+min    0.000000e+00
+25%    0.000000e+00
+50%    0.000000e+00
+75%    0.000000e+00
+max    2.020000e+03
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7020395 entries, 0 to 7020394
+Data columns (total 9 columns):
+ #   Column          Dtype
+---  ------          -----
+ 0   tconst          object
+ 1   titleType       object
+ 2   primaryTitle    object
+ 3   originalTitle   object
+ 4   isAdult         int64
+ 5   startYear       object
+ 6   endYear         object
+ 7   runtimeMinutes  object
+ 8   genres          object
+dtypes: int64(1), object(8)
+memory usage: 482.1+ MB
+None
+********************
+.iloc[0]
+tconst                    tt0000001
+titleType                     short
+primaryTitle             Carmencita
+originalTitle            Carmencita
+isAdult                           0
+startYear                      1894
+endYear                          \N
+runtimeMinutes                    1
+genres            Documentary,Short
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.crew
+
+********************
+describe()
+           tconst directors  writers
+count     7017458   7017458  7017458
+unique    7017458    748142  1036687
+top     tt2177727        \N       \N
+freq            1   2906241  3416470
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7017458 entries, 0 to 7017457
+Data columns (total 3 columns):
+ #   Column     Dtype
+---  ------     -----
+ 0   tconst     object
+ 1   directors  object
+ 2   writers    object
+dtypes: object(3)
+memory usage: 160.6+ MB
+None
+********************
+.iloc[0]
+tconst       tt0000001
+directors    nm0005690
+writers             \N
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.episode
+
+********************
+describe()
+           tconst parentTconst seasonNumber episodeNumber
+count     5023159      5023159      5023159       5023159
+unique    5023159       140810          344         15560
+top     tt2824524    tt0058796            1            \N
+freq            1        12178      2444420       1054356
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5023159 entries, 0 to 5023158
+Data columns (total 4 columns):
+ #   Column         Dtype
+---  ------         -----
+ 0   tconst         object
+ 1   parentTconst   object
+ 2   seasonNumber   object
+ 3   episodeNumber  object
+dtypes: object(4)
+memory usage: 153.3+ MB
+None
+********************
+.iloc[0]
+tconst           tt0041951
+parentTconst     tt0041038
+seasonNumber             1
+episodeNumber            9
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.principals
+
+********************
+describe()
+           ordering
+count  4.035690e+07
+mean   4.599137e+00
+std    2.777932e+00
+min    1.000000e+00
+25%    2.000000e+00
+50%    4.000000e+00
+75%    7.000000e+00
+max    1.000000e+01
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 40356901 entries, 0 to 40356900
+Data columns (total 6 columns):
+ #   Column      Dtype
+---  ------      -----
+ 0   tconst      object
+ 1   ordering    int64
+ 2   nconst      object
+ 3   category    object
+ 4   job         object
+ 5   characters  object
+dtypes: int64(1), object(5)
+memory usage: 1.8+ GB
+None
+********************
+.iloc[0]
+tconst        tt0000001
+ordering              1
+nconst        nm1588970
+category           self
+job                  \N
+characters     ["Self"]
+Name: 0, dtype: object
+********************
+********************
+********************
+********************
+
+imdb.title.ratings
+
+********************
+describe()
+       averageRating      numVotes
+count   1.058404e+06  1.058404e+06
+mean    6.885077e+00  9.611897e+02
+std     1.397828e+00  1.592716e+04
+min     1.000000e+00  5.000000e+00
+25%     6.100000e+00  9.000000e+00
+50%     7.100000e+00  2.000000e+01
+75%     7.900000e+00  7.900000e+01
+max     1.000000e+01  2.266103e+06
+********************
+info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1058404 entries, 0 to 1058403
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype
+---  ------         --------------    -----
+ 0   tconst         1058404 non-null  object
+ 1   averageRating  1058404 non-null  float64
+ 2   numVotes       1058404 non-null  int64
+dtypes: float64(1), int64(1), object(1)
+memory usage: 24.2+ MB
+None
+********************
+.iloc[0]
+tconst           tt0000001
+averageRating          5.7
+numVotes              1635
+Name: 0, dtype: object
+********************
+********************

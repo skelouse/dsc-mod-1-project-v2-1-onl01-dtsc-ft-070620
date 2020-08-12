@@ -4,8 +4,5 @@ __pycache__
 .vscode
 *.db
 *.pytest_cache
-/tests
-/person_data
-/info
 /Data
 notes.txt
