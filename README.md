@@ -42,8 +42,6 @@ I searched for the most profitable Genre by grouping the dataset by genre, and c
 
 ```python
 # Relevant imports
-# What time period this is what's analyzed, ecided to use ww gross
-# SOOO microsoft should do this after as shown
 import os
 import pandas as pd
 import pandasql as ps
