@@ -1,5 +1,5 @@
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Final-Project-Submission" data-toc-modified-id="Final-Project-Submission-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Final Project Submission</a></span><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Introduction</a></span></li></ul></li><li><span><a href="#Imports" data-toc-modified-id="Imports-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Imports</a></span><ul class="toc-item"><li><span><a href="#Importing-modules" data-toc-modified-id="Importing-modules-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Importing modules</a></span></li><li><span><a href="#Importing-Data" data-toc-modified-id="Importing-Data-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Importing Data</a></span></li><li><span><a href="#Splitting-Out-Rating" data-toc-modified-id="Splitting-Out-Rating-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Splitting Out Rating</a></span></li></ul></li><li><span><a href="#Plotting-Domestic-vs-World-Wide-Gross" data-toc-modified-id="Plotting-Domestic-vs-World-Wide-Gross-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Plotting Domestic vs World Wide Gross</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Adding-ROI-and-Combining-Info-Into-Larger-Frame" data-toc-modified-id="Adding-ROI-and-Combining-Info-Into-Larger-Frame-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Adding ROI and Combining Info Into Larger Frame</a></span><ul class="toc-item"><li><span><a href="#Join-Info-to-the-Scraped-Data" data-toc-modified-id="Join-Info-to-the-Scraped-Data-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Join Info to the Scraped Data</a></span></li><li><span><a href="#Min-and-Max-ROIs" data-toc-modified-id="Min-and-Max-ROIs-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Min and Max ROIs</a></span></li></ul></li><li><span><a href="#Plotting-Top-Genres" data-toc-modified-id="Plotting-Top-Genres-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Plotting Top Genres</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Cleaning</a></span><ul class="toc-item"><li><span><a href="#Which-genre-would-have-the-greatest-return-on-investment?" data-toc-modified-id="Which-genre-would-have-the-greatest-return-on-investment?-5.1.1"><span class="toc-item-num">5.1.1&nbsp;&nbsp;</span>Which genre would have the greatest return on investment?</a></span></li></ul></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Directors" data-toc-modified-id="Directors-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Directors</a></span><ul class="toc-item"><li><span><a href="#Getting-the-Names-of-directors-and-writers" data-toc-modified-id="Getting-the-Names-of-directors-and-writers-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Getting the Names of directors and writers</a></span></li><li><span><a href="#Plotting-ROI-vs-Director-Quantity" data-toc-modified-id="Plotting-ROI-vs-Director-Quantity-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Plotting ROI vs Director Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-6.2.1"><span class="toc-item-num">6.2.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-6.2.2"><span class="toc-item-num">6.2.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Plotting-Directors-vs-Mean-ROI" data-toc-modified-id="Plotting-Directors-vs-Mean-ROI-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>Plotting Directors vs Mean ROI</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-6.3.1"><span class="toc-item-num">6.3.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-6.3.2"><span class="toc-item-num">6.3.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li></ul></li><li><span><a href="#Writers" data-toc-modified-id="Writers-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Writers</a></span><ul class="toc-item"><li><span><a href="#Plotting-ROI-vs-Writer-Quantity" data-toc-modified-id="Plotting-ROI-vs-Writer-Quantity-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>Plotting ROI vs Writer Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-7.1.1"><span class="toc-item-num">7.1.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-7.1.2"><span class="toc-item-num">7.1.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Plotting-ROI-vs-Writer-Quantity" data-toc-modified-id="Plotting-ROI-vs-Writer-Quantity-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>Plotting ROI vs Writer Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-7.2.1"><span class="toc-item-num">7.2.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-7.2.2"><span class="toc-item-num">7.2.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li></ul></li><li><span><a href="#Scraping-the-data" data-toc-modified-id="Scraping-the-data-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Scraping the data</a></span><ul class="toc-item"><li><span><a href="#Creating-the-indexes-to-be-split" data-toc-modified-id="Creating-the-indexes-to-be-split-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Creating the indexes to be split</a></span></li><li><span><a href="#Splitting-the-data-to-be-scraped" data-toc-modified-id="Splitting-the-data-to-be-scraped-8.2"><span class="toc-item-num">8.2&nbsp;&nbsp;</span>Splitting the data to be scraped</a></span></li><li><span><a href="#Sending-the-python-file" data-toc-modified-id="Sending-the-python-file-8.3"><span class="toc-item-num">8.3&nbsp;&nbsp;</span>Sending the python file</a></span></li><li><span><a href="#Rescraping" data-toc-modified-id="Rescraping-8.4"><span class="toc-item-num">8.4&nbsp;&nbsp;</span>Rescraping</a></span></li><li><span><a href="#Combining-the-data" data-toc-modified-id="Combining-the-data-8.5"><span class="toc-item-num">8.5&nbsp;&nbsp;</span>Combining the data</a></span></li></ul></li><li><span><a href="#End" data-toc-modified-id="End-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>End</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Final-Project-Submission" data-toc-modified-id="Final-Project-Submission-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Final Project Submission</a></span><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Introduction</a></span></li></ul></li><li><span><a href="#Imports" data-toc-modified-id="Imports-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Imports</a></span><ul class="toc-item"><li><span><a href="#Importing-modules" data-toc-modified-id="Importing-modules-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Importing modules</a></span></li><li><span><a href="#Importing-Data" data-toc-modified-id="Importing-Data-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Importing Data</a></span></li><li><span><a href="#Splitting-Out-Rating" data-toc-modified-id="Splitting-Out-Rating-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Splitting Out Rating</a></span></li></ul></li><li><span><a href="#Plotting-Domestic-vs-World-Wide-Gross" data-toc-modified-id="Plotting-Domestic-vs-World-Wide-Gross-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Plotting Domestic vs World Wide Gross</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Adding-ROI-and-Combining-Info-Into-Larger-Frame" data-toc-modified-id="Adding-ROI-and-Combining-Info-Into-Larger-Frame-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Adding ROI and Combining Info Into Larger Frame</a></span><ul class="toc-item"><li><span><a href="#Join-Info-to-the-Scraped-Data" data-toc-modified-id="Join-Info-to-the-Scraped-Data-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Join Info to the Scraped Data</a></span></li><li><span><a href="#Min-and-Max-ROIs" data-toc-modified-id="Min-and-Max-ROIs-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Min and Max ROIs</a></span></li></ul></li><li><span><a href="#Plotting-Top-Genres" data-toc-modified-id="Plotting-Top-Genres-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Plotting Top Genres</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Cleaning</a></span><ul class="toc-item"><li><span><a href="#Which-genre-would-have-the-greatest-return-on-investment?" data-toc-modified-id="Which-genre-would-have-the-greatest-return-on-investment?-5.1.1"><span class="toc-item-num">5.1.1&nbsp;&nbsp;</span>Which genre would have the greatest return on investment?</a></span></li></ul></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Directors" data-toc-modified-id="Directors-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Directors</a></span><ul class="toc-item"><li><span><a href="#Getting-the-Names-of-directors-and-writers" data-toc-modified-id="Getting-the-Names-of-directors-and-writers-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Getting the Names of directors and writers</a></span></li><li><span><a href="#Plotting-ROI-vs-Director-Quantity" data-toc-modified-id="Plotting-ROI-vs-Director-Quantity-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Plotting ROI vs Director Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-6.2.1"><span class="toc-item-num">6.2.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-6.2.2"><span class="toc-item-num">6.2.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Plotting-Directors-vs-Mean-ROI" data-toc-modified-id="Plotting-Directors-vs-Mean-ROI-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>Plotting Directors vs Mean ROI</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-6.3.1"><span class="toc-item-num">6.3.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-6.3.2"><span class="toc-item-num">6.3.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li></ul></li><li><span><a href="#Writers" data-toc-modified-id="Writers-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Writers</a></span><ul class="toc-item"><li><span><a href="#Plotting-ROI-vs-Writer-Quantity" data-toc-modified-id="Plotting-ROI-vs-Writer-Quantity-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>Plotting ROI vs Writer Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-7.1.1"><span class="toc-item-num">7.1.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-7.1.2"><span class="toc-item-num">7.1.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li><li><span><a href="#Plotting-ROI-vs-Writer-Quantity" data-toc-modified-id="Plotting-ROI-vs-Writer-Quantity-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>Plotting ROI vs Writer Quantity</a></span><ul class="toc-item"><li><span><a href="#Cleaning" data-toc-modified-id="Cleaning-7.2.1"><span class="toc-item-num">7.2.1&nbsp;&nbsp;</span>Cleaning</a></span></li><li><span><a href="#Plotting" data-toc-modified-id="Plotting-7.2.2"><span class="toc-item-num">7.2.2&nbsp;&nbsp;</span>Plotting</a></span></li></ul></li></ul></li><li><span><a href="#Scraping-the-data" data-toc-modified-id="Scraping-the-data-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Scraping the data</a></span><ul class="toc-item"><li><span><a href="#Creating-the-indexes-to-be-split" data-toc-modified-id="Creating-the-indexes-to-be-split-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Creating the indexes to be split</a></span></li><li><span><a href="#Splitting-the-data-to-be-scraped" data-toc-modified-id="Splitting-the-data-to-be-scraped-8.2"><span class="toc-item-num">8.2&nbsp;&nbsp;</span>Splitting the data to be scraped</a></span></li><li><span><a href="#Sending-the-python-file" data-toc-modified-id="Sending-the-python-file-8.3"><span class="toc-item-num">8.3&nbsp;&nbsp;</span>Sending the python file</a></span></li><li><span><a href="#Rescraping" data-toc-modified-id="Rescraping-8.4"><span class="toc-item-num">8.4&nbsp;&nbsp;</span>Rescraping</a></span></li><li><span><a href="#Combining-the-data" data-toc-modified-id="Combining-the-data-8.5"><span class="toc-item-num">8.5&nbsp;&nbsp;</span>Combining the data</a></span></li></ul></li><li><span><a href="#Conclusion" data-toc-modified-id="Conclusion-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Conclusion</a></span></li></ul></div>
 
 ## Final Project Submission
 
@@ -269,14 +269,13 @@ ax.yaxis.label.set_fontsize(20)
 ax.xaxis.label.set_text("Budget (Billions)")
 ax.yaxis.label.set_text("Gross (Billions)")
 ax.tick_params(axis='both', which='major', labelsize=15)
-
-# As you can see in the graph below, movies that are worldwide make more
-# money than movies that are only released domestically
 ```
 
 
 ![png](img/output_17_0.png)
 
+
+As you can see in the graph above, movies that are worldwide make more money than movies that are only released domestically.
 
 ## Adding ROI and Combining Info Into Larger Frame
 
@@ -951,9 +950,10 @@ ax.tick_params(axis='both', which='major', labelsize=15)
 ```
 
 
-![png](img/output_32_0.png)
+![png](img/output_33_0.png)
 
 
+The graph is inconclusive.
 
 ```python
 fig, ax = plt.subplots(figsize=(20, 5))
@@ -975,15 +975,13 @@ ax.yaxis.label.set_text("")
 ax.xaxis.label.set_fontsize(23)
 ax.xaxis.label.set_text("ROI %")
 ax.tick_params(axis='both', which='major', labelsize=20)
-
-# The below graph is showing that a Mystery or Animated movie would have the
-# greatest return on investment
 ```
 
 
-![png](img/output_33_0.png)
+![png](img/output_35_0.png)
 
 
+The above graph is showing that a Mystery or Animated movie would have the greatest return on investment.
 
 ## Directors
 
@@ -1176,14 +1174,14 @@ ax.yaxis.label.set_fontsize(20)
 ax.xaxis.label.set_text("Director Count")
 ax.yaxis.label.set_text("Return on Budget %")
 ax.tick_params(axis='both', which='major', labelsize=15)
-
-# The graph is showing a downward trend the more directors you have
-# So one director would be the best case for Microsoft.
 ```
 
 
-![png](img/output_42_0.png)
+![png](img/output_45_0.png)
 
+
+The graph is showing a downward trend the more directors you have. 
+So one director would be the best case for Microsoft.
 
 ### Plotting Directors vs Mean ROI
 
@@ -1354,13 +1352,13 @@ ax.yaxis.label.set_fontsize(25)
 ax.xaxis.label.set_text("Return on Investment %")
 ax.yaxis.label.set_text("Director Name")
 ax.tick_params(axis='both', which='major', labelsize=15)
-
-# Below is a graph showing the top directors that Microsoft would want to use
 ```
 
 
-![png](img/output_51_0.png)
+![png](img/output_55_0.png)
 
+
+The graph is showing the top directors that Microsoft would want to use
 
 ## Writers
 
@@ -1394,13 +1392,13 @@ ax.yaxis.label.set_fontsize(20)
 ax.xaxis.label.set_text("Writer Count")
 ax.yaxis.label.set_text("Return on Budget %")
 ax.tick_params(axis='both', which='major', labelsize=15)
-
-# The graph is inconclusive.
 ```
 
 
-![png](img/output_57_0.png)
+![png](img/output_62_0.png)
 
+
+The graph is inconclusive.
 
 ### Plotting ROI vs Writer Quantity
 
@@ -1567,14 +1565,13 @@ ax.yaxis.label.set_fontsize(25)
 ax.xaxis.label.set_text("Return on Investment %")
 ax.yaxis.label.set_text("Writer Name")
 ax.tick_params(axis='both', which='major', labelsize=15)
-
-# The graph below is showing the top writers Microsoft would want to use if
-# they only chose to have a single writer
 ```
 
 
-![png](img/output_66_0.png)
+![png](img/output_72_0.png)
 
+
+The graph below is showing the top writers Microsoft would want to use if they only chose to have a single writer
 
 ## Scraping the data
 The data below was scraped using a group method.  First by splitting up the list of movie indexes (tt000...) into 10 parts for the group, and then sending the respective files to each individual in the group.  After the data was scrapped they returned to me to be combined and returned back as a whole.  For a more detailed outlook, check out my blog post tagged at the top of this README.
@@ -1861,23 +1858,26 @@ def main():
 # main()
 ```
 
-## End
-
-
-```python
-# Top 10 directors
-director_order
-```
-
-'William Brent Bell', 'Jordan Peele', 'James Wan', 'David F. Sandberg',
-'Adam Robitel', 'Christopher Landon', 'Alex Kendrick',
-'M. Night Shyamalan', 'Darren Aronofsky', 'Andy Muschietti'
-
-
+## Conclusion
 
 A movie should be released wordwide to have more return than a movie only released domestically.
 
 A movie should be a Mystery or Animation for the greatest return on investment.
 
 A solo director should be chosen, and That director should be one from the top 10 list above.
+
+
+```python
+# Top 10 directors microsoft should use
+director_order
+```
+
+
+
+
+    Index(['William Brent Bell', 'Jordan Peele', 'James Wan', 'David F. Sandberg',
+           'Adam Robitel', 'Christopher Landon', 'Alex Kendrick',
+           'M. Night Shyamalan', 'Darren Aronofsky', 'Andy Muschietti'],
+          dtype='object', name='name')
+
 
